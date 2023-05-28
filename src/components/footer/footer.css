@@ -1,0 +1,60 @@
+.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  display: block;
+  width: 100%;
+}
+
+.footer-wrapper {
+  width: 100%;
+  height: 80px;
+  background-color: #1b1d18;
+}
+form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+  height: 100%;
+  padding-top: 10px;
+}
+.messageicon {
+  padding-top: 5px;
+  cursor: pointer;
+}
+.messageicon:nth-child(1) {
+  padding-left: 7px;
+}
+.icon2 {
+  padding-right: 12px;
+}
+form input {
+  width: 80%;
+  height: 40px;
+  border-radius: 18px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  outline: none;
+  color: white;
+  background: #060606;
+  border: 1px solid #3a3a3c;
+  border-radius: 16.5px;
+}
+
+.icon1 input {
+  display: none;
+}
+
+.circle-area {
+  background-color: #65d677;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-3px);
+}
